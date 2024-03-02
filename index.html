@@ -1,94 +1,472 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet">
 
-    </head>
-    <body data-smooth-scroll-offset="77">
-        <div class="nav-container"> </div>
-        <div class="main-container">
-            <a id="carrion" class="in-page-link"></a>
-            <section class="imagebg text-center space--xxs" data-overlay="4">
-                <div class="background-image-holder"> <img alt="background" src="img/wallpaper_portal.jpg"> </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h1>Minería de datos - 202410<br><br>Shalem Abud Janna Díaz<br>Harry Miyer Cepeda Reales<br>Jhimi Junior Vargas Guzman<br>Marta Patricia Arrieta Contreras<br>Andres Felipe Meza Caballero<br><br></h1>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <a id="the_gift" class="in-page-link"></a>
-            <section class="text-center imagebg space--xlg" data-overlay="4">
-                <div class="background-image-holder"> <img alt="background" src="img/portal_alone.jpg"> </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-10 col-lg-8">
-                            <h1>Entendiendo Datos de las Icfes 2020</h1>
-                            <p class="lead"> Haciendo vainas que todavía no tengo claro pero que ahí fue</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <a id="dead_again" class="in-page-link"></a>
-            <section class="imagebg" data-overlay="4">
-                <div class="background-image-holder"> <img alt="background" src="img/walleto.gif"> </div>
-                <div class="container">
-                    <div class="row justify-content-between">
-                        <div class="col-md-6">
-                            <h4>Entendiendo...</h4>
-                            <p class="lead"> Las pruebas Saber 11 son exámenes estandarizados para estudiantes colombianos al finalizar la secundaria. Los datos de estas pruebas incluyen puntajes en diferentes áreas, información de los estudiantes y características de las instituciones. El conjunto de datos del año 2020 está disponible, lo que facilita la realización del proyecto; estos datos ofrecen oportunidades para aplicar diversas técnicas de minería de datos, como clasificación, regresión, clustering y asociación. </p>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="boxed boxed--lg boxed--border bg--secondary"> <img alt="image" src="img/chell.jpg" class="border--round">
-                                <h5>descripcion de algo</h5>
-                                <p> cualquier cosa aca</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <a id="abracadavre" class="in-page-link"></a>
-            <section class="text-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="feature feature-9"> <img class="border--round" alt="Image" src="img/MARTA.jpg">
-                                <h4>Marta Patricia Arrieta Contreras<br>nació el día 22 de mayo del año 2002, (tiene 21 años) actualmente es estudiante de último semestre en ingeniería de sistemas y computación en la universidad del norte. En su trayecto de vida ha participado en varios cursos de seguridad, educación, inclusive de deporte. Se ha destacado por su liderazgo, versatilidad y compromiso.<br></h4> <span> </span> </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="feature feature-9"> <img class="border--round" alt="Image" src="img/Shalem.jpeg">
-                                <h4>Shalem Abud Janna Díaz</h4> <span>Lead Designer<br>Estudiante Ingeniería de Sistemas - Universidad del Norte<br></span> </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="feature feature-9"> <img class="border--round" alt="Image" src="img/Jhimi.jpg">
-                                <h4>Jhimi Junior Vargas Guzman</h4> <span>es trabajo honesto, no sé que poner de descripcion so voy a esperar ver la suya pa copiarme</span> </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="feature feature-9"> <img class="border--round" alt="Image" src="img/Harry.jpeg">
-                                <h4>Harry Miyer Cepeda Reales</h4> <span>創一<br>23 Años, estudiante de Sistemas y computación, becado por la fundación ColomboJaponesa y futuro científico de datos ( si Dios lo permite), planeando una estadía y trabajo en Japón con todo lo que implica.<br></span> </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="feature feature-9"> <img class="border--round" alt="Image" src="img/MEZA.jpeg">
-                                <h4>Andres Felipe Meza Caballero</h4> <span>Andrés Felipe Meza Caballero, nació el día 8 de marzo del año 1999, es estudiante de último semestre en Ingeniería de Sistemas y Computación de la Universidad del Norte. Es conocido por su gusto de computadores y su capacidad de solucionar los problemas que se enfrenta. Le gusta participar en diferentes cursos relacionados a programación y al deporte.</span> </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <a id="beauty_of_anihilation" class="in-page-link"></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">ICFES Data Mining</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Equipo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#dataset">Dataset</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#insights">Insights</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hypothesis">Hipótesis</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <!-- Background image -->
+    <div class="p-5 text-center bg-image" style="
+          background-image: url('img/icfes_hero.jpg');
+          height: 400px;
+          background-size: cover;
+          background-position: center;
+          margin-top: 60px;
+        ">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.4); border-radius: 10px">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+            <h1 class="mb-3 mt-5 display-3">Minería de datos</h1>
+            <p class="mb-5">
+              Descubriendo patrones, relaciones e información valiosa en los
+              datos ICFES 2020
+            </p>
+          </div>
         </div>
-        <script src="js/jquery-3.1.1.min.js"></script>
-        <script src="js/parallax.js"></script>
-        <script src="js/smooth-scroll.min.js"></script>
-        <script src="js/scripts.js"></script>
+      </div>
+    </div>
+    <!-- Background image -->
+  </header>
 
-    </body>
+  <!-- TeamComponent -->
+  <section id="team" class="bg-light py-3 py-md-5 py-xl-8">
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+          <h2 class="mb-4 display-5 text-center">Conoce al equipo!</h2>
+          <p class="text-secondary mb-5 text-center lead fs-4">
+            Somos un grupo de estudiantes de Ingeniería de Sistemas y
+            Computación en la Universidad del Norte con objetivos y gustos muy
+            específicos.
+          </p>
+          <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container overflow-hidden">
+      <div class="row gy-4 gy-lg-4 gx-xxl-5">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+            <div class="card-body p-0">
+              <figure class="m-0 p-0">
+                <img class="img-fluid" loading="lazy" src="img/team/Shalem.png" alt="Flora Nyra"
+                  style="height: 400px; width: 100%; object-fit: cover" />
+                <figcaption class="m-0 p-4">
+                  <h4 class="mb-1">Shalem Janna</h4>
+                  <p class="text-secondary mb-0">
+                    Nací el 11 de Julio del 2001, soy un apasionado por la
+                    analítica y la tecnología. Tengo habilidades para el
+                    análisis y resolución de problemas, así como capacidad
+                    para trabajar en equipo y colaborar en proyectos
+                    multidisciplinarios. Me considero una persona curiosa,
+                    apasionada por el aprendizaje continuo y la exploración de
+                    nuevas tecnologías.
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+            <div class="card-body p-0">
+              <figure class="m-0 p-0">
+                <img class="img-fluid" loading="lazy" src="img/team/Marta.jpg" alt="Evander Mac"
+                  style="height: 400px; width: 100%; object-fit: cover" />
+                <figcaption class="m-0 p-4">
+                  <h4 class="mb-1">Marta Arrieta</h4>
+                  <p class="text-secondary mb-0">
+                    Nació el día 22 de mayo del año 2002, (tiene 21 años)
+                    actualmente es estudiante de último semestre en ingeniería
+                    de sistemas y computación en la universidad del norte. En
+                    su trayecto de vida ha participado en varios cursos de
+                    seguridad, educación, inclusive de deporte. Se ha
+                    destacado por su liderazgo, versatilidad y compromiso.
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+            <div class="card-body p-0">
+              <figure class="m-0 p-0">
+                <img class="img-fluid" loading="lazy" src="img/team/Harry.png" alt="Taytum Elia"
+                  style="height: 400px; width: 100%; object-fit: cover" />
+                <figcaption class="m-0 p-4">
+                  <h4 class="mb-1">Harry Cepeda</h4>
+                  <p class="text-secondary mb-0">
+                    23 Años, estudiante de Sistemas y computación, becado por
+                    la fundación ColomboJaponesa y futuro científico de datos
+                    ( si Dios lo permite), planeando una estadía y trabajo en
+                    Japón con todo lo que implica.
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+            <div class="card-body p-0">
+              <figure class="m-0 p-0">
+                <img class="img-fluid" loading="lazy" src="img/team/Meza.png" alt="Wylder Elio"
+                  style="height: 400px; width: 100%; object-fit: cover" />
+                <figcaption class="m-0 p-4">
+                  <h4 class="mb-1">Andres Meza</h4>
+                  <p class="text-secondary mb-0">
+                    Nació el día 8 de marzo del año 1999, es estudiante de
+                    último semestre en Ingeniería de Sistemas y Computación de
+                    la Universidad del Norte. Es conocido por su gusto de
+                    computadores y su capacidad de solucionar los problemas
+                    que se enfrenta. Le gusta participar en diferentes cursos
+                    relacionados a programación y al deporte.
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+            <div class="card-body p-0">
+              <figure class="m-0 p-0">
+                <img class="img-fluid" loading="lazy" src="img/team/Jhimi.png" alt="Wylder Elio"
+                  style="height: 400px; width: 100%; object-fit: cover" />
+                <figcaption class="m-0 p-4">
+                  <h4 class="mb-1">Jhimi Vargas</h4>
+                  <p class="text-secondary mb-0">Description in process...</p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dataset -->
+  <section id="dataset" class="bg-light py-3 py-md-5 py-xl-8">
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-12 col -md-10 col-lg-8 col-xl-8 col-xxl-8">
+          <h2 class="mb-0 display-5 text-center">¿Por qué este y no otro?</h2>
+          <p class="text-secondary text-center">
+            <small>Las razones que nos llevaron a eleguir este Dataset</small>
+          </p>
+          <p class="lead fs-5">
+            La elección del conjunto de datos de los resultados de las pruebas
+            Saber 11 del año 2020 se fundamenta en la relevancia que tiene
+            este examen estandarizado en el contexto educativo colombiano.
+            Estas pruebas ofrecen una visión integral del rendimiento
+            académico de los estudiantes al culminar la educación secundaria,
+            permitiendo así un análisis profundo de los factores que inciden
+            en su desempeño.
+          </p>
+          <p class="lead fs-5">
+            La riqueza de variables presentes en los resultados de las pruebas
+            Saber 11, que abarcan desde puntajes específicos en diversas áreas
+            como matemáticas, ciencias, lectura, hasta información demográfica
+            detallada de los estudiantes y características de las
+            instituciones educativas, proporciona un panorama completo y
+            multidimensional. Este amplio espectro de datos es esencial para
+            abordar investigaciones en el campo de la educación, permitiendo
+            identificar patrones, tendencias y relaciones que pueden ser
+            cruciales para el diseño e implementación de políticas educativas
+            efectivas.
+          </p>
+          <p class="lead fs-5">
+            La disponibilidad y accesibilidad del conjunto de datos del año
+            2020 facilitan significativamente la ejecución del proyecto,
+            permitiendo una exploración exhaustiva y análisis detallados.
+            Además, la diversidad de información presente en este conjunto de
+            datos ofrece una oportunidad única para aplicar una variedad de
+            técnicas avanzadas de minería de datos, como clasificación,
+            regresión, clustering y asociación. Estas técnicas permitirán
+            extraer conocimientos valiosos que contribuirán a la comprensión
+            integral de los factores que influyen en el rendimiento académico
+            de los estudiantes colombianos, respaldando así la toma de
+            decisiones informadas en el ámbito educativo.
+          </p>
+          <!-- Dataset link -->
+          <div class="text-center">
+            <a href="https://www.datos.gov.co/Educaci-n/Saber-11-2020-2/rnvb-vnyh/about_data" class="btn btn-primary"
+              target="_blank" rel="noopener noreferrer">Ver Dataset</a>
+            <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" />
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  <!-- Data Overview -->
+  <section id="insights" class="bg-light py-3 py-md-5 py-xl-8">
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-12 col-md-10">
+          <h2 class="mb-0 display-5 text-center">Vista rápida de los Datos</h2>
+          <p class="text-secondary text-center">
+            <small>Algunas observaciones interesantes</small>
+          </p>
+          <!-- Charts -->
+          <div class="col-12 col-md-12 mb-4 ">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title
+                    text-center">Distribución de los puntajes en las pruebas Saber
+                </h5>
+                <img class="rounded mx-auto d-block" src="img/charts/histplot_punt_global.png" alt="Score Distribution Chart" />
+              </div>
+            </div>
+          </div>
+          <h4 class="mb-4 mt-4 display-6 text-center">¿Influyen las caracteristicas de la familia en los resultados?
+          </h4>
+          <div class="row gy-4 gy-lg-4 gx-xxl-5">
+
+            <div class="col-12 col-md-4 mb-4">
+              <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                  <h6 class="card-title
+                      text-center">Estrato vivienda</h6>
+                  <img src="img/charts/fami_estratovivienda.png" alt="Estrato vivienda Chart"
+                    style="width: 100%; object-fit: cover" />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+              <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                  <h6 class="card-title
+                    text-center">Personas hogar</h6>
+                  <img src="img/charts/fami_personashogar.png" alt="Personas hogar Chart"
+                    style="width: 100%; object-fit: cover" />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+              <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                  <h6 class="card-title
+                      text-center">Tiene internet</h6>
+                  <img src="img/charts/fami_tieneinternet.png" alt="Tiene internet Chart"
+                    style="width: 100%; object-fit: cover" />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+              <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                  <h6 class="card-title
+                      text-center">Tiene servicio TV</h6>
+                  <img src="img/charts/fami_tieneserviciotv.png" alt="Tiene servicio tv Chart"
+                    style="width: 100%; object-fit: cover" />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+              <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                  <h6 class="card-title
+                      text-center">Tiene Computador</h6>
+                  <img src="img/charts/fami_tienecomputador.png" alt="Tiene computador Chart"
+                    style="width: 100%; object-fit: cover" />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+              <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                  <h6 class="card-title
+                      text-center">Tiene horno microondas o gas</h6>
+                  <img src="img/charts/fami_tienehornomicroogas.png" alt="Tiene horno microondas o gas Chart"
+                    style="width: 100%; object-fit: cover" />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+              <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                  <h6 class="card-title
+                      text-center">Tiene automovil</h6>
+                  <img src="img/charts/fami_tieneautomovil.png" alt="Tiene automovil Chart"
+                    style="width: 100%; object-fit: cover" />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+              <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                  <h6 class="card-title
+                      text-center">Tiene motocicleta</h6>
+                  <img src="img/charts/fami_tienemotocicleta.png" alt="Tiene motocicleta Chart"
+                    style="width: 100%; object-fit: cover" />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+              <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                  <h6 class="card-title
+                      text-center">Tiene consola de videojuegos</h6>
+                  <img src="img/charts/fami_tieneconsolavideojuegos.png" alt="Tiene consola de videojuegos Chart"
+                    style="width: 100%; object-fit: cover" />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+              <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                  <h6 class="card-title
+                      text-center">Numero de libros</h6>
+                  <img src="img/charts/fami_numlibros.png" alt="Numero de libros Chart"
+                    style="width: 100%; object-fit: cover" />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+              <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                  <h6 class="card-title
+                      text-center">Come leche o derivados</h6>
+                  <img src="img/charts/fami_comelechederivados.png" alt="Come leche o derivados Chart"
+                    style="width: 100%; object-fit: cover" />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+              <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                  <h6 class="card-title
+                      text-center">Come cereal, frutos o legumbre</h6>
+                  <img src="img/charts/fami_comecerealfrutoslegumbre.png" alt="Come cereal, frutos o legumbre Chart"
+                    style="width: 100%; object-fit: cover" />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+              <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                  <h6 class="card-title
+                      text-center">Come carne, pescado o huevo</h6>
+                  <img src="img/charts/fami_comecarnepescadohuevo.png" alt="Come carne, pescado o huevo Chart"
+                    style="width: 100%; object-fit: cover" />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+              <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                  <h6 class="card-title
+                      text-center">Situación económicoa</h6>
+                  <img src="img/charts/fami_situacioneconomica.png" alt="Situación económicaChart"
+                    style="width: 100%; object-fit: cover" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="lead fs-5">
+            Analizando los datos de las pruebas Saber 11 del año 2020 en los aspectos relacionados con la familia, que
+            si bien son factores que pueden influir en el rendimiento académico de los estudiantes, no parecen ser por
+            si solos hacer la diferencia. Sabemos estos factores pueden ser determinantes en la calidad de vida y el
+            acceso a recursos y oportunidades que impactan directamente en el desempeño académico. Por tanto es
+            pertienente revisar si la combianción de estos factores tiene el impacto significativo en el rendimiento
+            académico esperado.
+          </p>
+          <hr class="w-50 mx-auto mb-2 mb-xl-9 border-dark-subtle" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hypothesis -->
+  <section id="hypothesis" class="bg-light py-3 py-md-5 py-xl-8">
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-12 col
+          -md-10 col-lg-8 col-xl-8 col-xxl-8">
+          <h2 class="mb-0 display-5 text-center">Hipótesis</h2>
+          <p class="text-secondary text-center">
+            <small>Algunas ideas que queremos explorar</small>
+          </p>
+          <p class="lead fs-5">
+            A partir de la exploración inicial de los datos, se plantean las
+            siguientes hipótesis que se buscarán validar a través de la
+            aplicación de técnicas de minería de datos:
+          </p>
+          <p class="lead fs-5">
+            1. El rendimiento académico de los estudiantes está influenciado por
+            factores socioeconómicos, como el estrato socioeconómico, el número
+            de personas en el hogar, la disponibilidad de servicios como
+            internet, televisión, computador, entre otros, y la situación
+            económica de la familia.
+          </p>
+          <p class="lead fs-5">
+            2. Las características de las instituciones educativas, como el
+            tipo, la jornada, la ubicación y el tamaño, tienen un impacto
+            significativo en el rendimiento académico de los estudiantes.
+          </p>
+          <p class="lead fs-5">
+            3. Existen patrones y tendencias en los puntajes obtenidos en las
+            diferentes áreas de las pruebas Saber 11, que permiten identificar
+            grupos de estudiantes con desempeños similares y establecer
+            relaciones entre las variables presentes en el conjunto de datos.
+          </p>
+          <p class="lead fs-5">
+            4. La aplicación de técnicas de minería de datos, como
+            clasificación, regresión, clustering y asociación, permitirá
+            identificar patrones, tendencias y relaciones ocultas en los datos
+            que contribuirán a la comprensión integral de los factores que
+            influyen en el rendimiento académico de los estudiantes
+            colombianos.
+          </p>
+          <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
 
 </html>
